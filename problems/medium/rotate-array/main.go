@@ -1,7 +1,7 @@
 package medium_rotate_array
 
 /**
-https://leetcode.com/problems/rotate-array/submissions/
+https://leetcode.com/problems/rotate-array/
 */
 func rotate(nums []int, k int) {
 	if k > len(nums) {
