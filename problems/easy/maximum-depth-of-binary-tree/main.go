@@ -15,8 +15,7 @@ func maxDepth(root *TreeNode) int {
 	}
 
 	maxDepth := 0
-	queue := make([]*TreeNode, 0, 2)
-	queue = append(queue, root, nil)
+	queue := []*TreeNode{root, nil}
 	for len(queue) > 0 {
 		curNode := queue[0]
 		queue = queue[1:]
